@@ -1,0 +1,169 @@
+.container {
+  margin: auto;
+  width: 1000px;
+  font-family: "Roboto", sans-serif;
+}
+.w-100 {
+  width: 100%;
+  text-align: center;
+}
+
+.barnavig {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.barnavig .tit {
+  width: 50%;
+  margin: 0px;
+}
+.btnBlue {
+  padding: 7px 30px;
+  color: white;
+  background-color: rgb(0, 170, 255);
+  border: none;
+  border-radius: 5px;
+}
+.formPg {
+  padding: 10px;
+  background: url(./img/bg-masthead.jpg);
+  background-size: cover;
+  background-position: center;
+  display: block;
+  text-align: center;
+  color: white;
+  height: 450px;
+}
+input {
+  border-radius: 5px;
+}
+
+.formPg h1,
+form {
+  position: relative;
+  top: 25%;
+  left: 0%;
+  font-size: xx-large;
+}
+.formPg2 {
+  padding: 10px;
+  background: url(./img/bg-masthead.jpg);
+  background-size: cover;
+  background-position: center;
+  display: block;
+  text-align: center;
+  color: white;
+  height: 200px;
+}
+.formPg2 h1 {
+  position: relative;
+  top: 30%;
+}
+.mail {
+  padding: 5px;
+  width: 250px;
+}
+.logosP {
+  display: flex;
+  margin-top: 50px;
+}
+.logo {
+  margin: 30px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.piclogo {
+  color: blue;
+  font-size: 50px;
+  padding: 30px 50px;
+}
+.mainCont {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.pareja {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  text-align: center;
+  padding: 40px;
+}
+.img1 {
+  width: 50%;
+}
+
+.opinionTab h2 {
+  text-align: center;
+}
+.opnG {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.opn {
+  display: inline-block;
+  position: relative;
+}
+.imgO {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  left: 25%;
+}
+
+.p1 {
+  text-align: center;
+  width: 300px;
+
+  font-size: medium;
+}
+.p2 {
+  color: gainsboro;
+  font-size: small;
+  width: 250px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+}
+
+.footerPg {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+footer ul {
+  list-style-type: none;
+  padding: 10px 0px;
+  margin: 0;
+}
+footer ul li {
+  display: inline;
+  margin-right: ;
+  font-size: small;
+}
+footer ul li a {
+  color: rgb(0, 170, 255);
+  text-decoration: none;
+}
+footer ul li:not(:last-child)::after {
+  content: "\00B7"; /* Punto central unicode */
+  margin-left: 8px;
+  margin-right: 5px;
+  font-size: 12px; /* Tamaño del punto */
+}
+footer span {
+  font-size: x-small;
+  color: grey;
+}
+.appIcons {
+  color: rgb(0, 170, 255);
+  font-size: large;
+}
+.appIcons i {
+  padding: 10px;
+}
